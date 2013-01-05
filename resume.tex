@@ -9,8 +9,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage{eurosym}
 \usepackage{color}
-\usepackage[scale=0.81]{geometry}
-\setlength{\hintscolumnwidth}{2.5cm}
+\usepackage[top=2cm, bottom=1cm, left=1.8cm, right=1.8cm]{geometry}
+\setlength{\hintscolumnwidth}{2.8cm}
 \nopagenumbers{}
 
 % Programming Languages would be blue and in italic
@@ -21,10 +21,11 @@
 \firstname{Sébastien}
 \familyname{Saunier}
 \title{Web Software Engineer}
+\address{Paris, France}{}
+\email{sebastien.saunier@polytechnique.edu}
 \homepage{saunier.me}
 \extrainfo{\raisebox{-1mm}{\includegraphics[height=11pt]{octocatvector.eps}}
     \href{https://github.com/ssaunier}{github.com/ssaunier}}
-\email{sebastien.saunier@polytechnique.edu}
 
 % Rock'n roll!
 \begin{document}
@@ -70,9 +71,15 @@
 \cventry{2002--2004}{Classes Préparatoires}{Corneille High School}{Rouen}{
     \textit{PC*}}{2 years of intensive training in Math, Physics and Chemistry}
 
-\section{Languages}
-\cvitemwithcomment{English}{Full professional proficiency}{Experiences in multi-cultural work environments}
-\cvitemwithcomment{French}{Native}{Born and raised in Normandy, France}
+\section{Skills}
+\cvline{Technical}{
+    Software design and implementation.
+    Strong experience with \pl{Ruby} (Rails), \pl{C\#} (ASP.Net MVC), \pl{Java}, \pl{PHP},
+    \pl{JavaScript} (vanilla, jQuery, Node.js), HTML, CSS, REST, \pl{zsh} and git.
+    Best practices aficionado (code review, continuous integration, project management).
+}
+\cvline{Languages}{French \emph{(mother tongue)}, English \emph{(full professional proficiency)}}
+
 
 \section{Hobbies}
 \cvitem{Shopboard}{Bootstrapping a SaaS product for e-merchants (real-time dashboard + live chat integration)}
