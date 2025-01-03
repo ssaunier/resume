@@ -32,3 +32,4 @@
 *.xdy
 *.tdo
 *-eps-converted-to.pdf
+.DS_Store

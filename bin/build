@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+# Requirement: `brew install basictex`
+
+pdflatex resume && open resume.pdf

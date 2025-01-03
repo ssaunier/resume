@@ -1,19 +1,13 @@
-% Copyright (c) 2013 Sébastien Saunier
+% Copyright (c) 2024 Sébastien Saunier
 % Released under the MIT License (http://opensource.org/licenses/MIT)
 
-% Silencing some errors, cf http://tex.stackexchange.com/a/60995
-\RequirePackage[]{silence}
-\WarningsOff[hyperref]
-
-% Sans-serif
-\renewcommand{\familydefault}{\sfdefault}
-
-\documentclass[11pt,a4paper]{moderncv}
+\documentclass[11pt,a4paper,sans]{moderncv}
 \moderncvtheme[blue]{classic}
+\usepackage{lmodern}
 \usepackage[utf8]{inputenc}
 \usepackage{eurosym}
 \usepackage{color}
-\usepackage[top=1cm, bottom=1cm, left=1.8cm, right=1.8cm]{geometry}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.4cm, right=1.4cm]{geometry}
 \setlength{\hintscolumnwidth}{2.8cm}
 \nopagenumbers{}
 
@@ -24,37 +18,30 @@
 % Identity
 \firstname{Sébastien}
 \familyname{Saunier}
-\title{Startup Technical Coach}
-\address{Paris, France}{}
+\title{Software Engineer (15+ years)}
+\address{Marseille, France}{}
 \email{seb@saunier.me}
 \homepage{sebastien.saunier.me}
-% \phone{+33 662 333 119}
 \photo[60pt][0pt]{sebastien_saunier.jpg}
 \extrainfo{\raisebox{-1mm}{\includegraphics[height=11pt]{octocatvector.eps}}
     \href{https://github.com/ssaunier}{github.com/ssaunier}}
 
-% Rock'n roll!
 \begin{document}
 
 \maketitle
 
-% \section{Objective}
-% \cvline{2014}{Design, build and ship awesome web products with great clients using Lean \& Agile}
-
 \section{Experience}
-\cventry{Since 2014}{CTO \& Co-Founder}{Le Wagon}{Paris, London, Berlin}{}{
-  Developing the academic program and Teaching at our 9 week ruby on rails bootcamp for entrepreneurs. \pl{Ruby} (Rails)
+\cventry{Since 2025}{Individual Contributor}{Freelance}{\textit{Remote}}{}{
+  Bringing my technical expertise (13 years working with Ruby on Rails applications) to companies with ambitous Product Roadmaps.
 }
-\cventry{Since 2014}{Startup Executive Technical Coach}{Independent}{Paris}{France}{
-  Coaching startups with their first MVP, future-proof technology choices,
-  assuming an \textit{Interim CTO / Lead Developer} role. Lean Startup, Agile, TDD
-  and continuous deployment. \pl{Ruby} (Rails)
+\cventry{2014-2024}{Co-Founder \& CTO}{\href{https://www.lewagon.com}{Le Wagon}}{Paris, London, Berlin, \textit{Remote}}{}{
+  Developing the curriculi and Teaching at our Web Development \& Data Science bootcamps. Led the Engineering team (up to 20 people) using the Shape Up methodology, building the Pedagogical and Operational platform \textbf{Kitt} supporting every aspect of the business. \pl{Ruby, JavaScript, Python}
 }
-\cventry{2012-2014}{Senior Software Engineer}{Applidget}{Paris}{France}{Full-stack lead
+\cventry{2012-2014}{Senior Software Engineer}{Eventmaker (Acquired by Infopro Digital)}{Paris}{France}{Full-stack lead
     developer on \href{http://www.mobicheckin.com}{MobiCheckin}, a SaaS product for event organisers. Integration of Mandrill, Mailchimp, Highrise, Esendex and Xing Events APIs. \pl{Ruby} (Rails), \pl{JavaScript}}
-\cventry{2010-2013}{Web Software Engineer}{Auto-Entrepreneur}{Remotely}{Earth}{
+\cventry{2010-2013}{Web Software Engineer}{Freelance}{\textit{Remote}}{}{
 \begin{itemize}
-\item Bootstrapping a SaaS product for e-merchants, \textbf{Shopboard},
+\item Bootstrapping a SaaS product for e-merchants with a Shopify integration, Shopboard,
       a real-time dashboard with live chat integration. \pl{Ruby, JavaScript}
 \item Designed, implemented and tested a web CMS for Sogedis, an household
       appliances spare part company. Hooked it with the ERP Divalto and
@@ -95,10 +82,10 @@
 }
 \cvline{Languages}{French \emph{(mother tongue)}, English \emph{(full professional proficiency)}, Spanish \emph{(notions)}}
 
-
 \section{Hobbies}
-\cvitem{Music}{Piano and bass guitar player}
-\cvitem{Sports}{Surf, Bodyboard, Volley Ball}
-\cvitem{Cooking}{\textit{Canelés}, \textit{risotti}, muffins and cookies}
+\cvitem{Cooking}{Sourdough Bread, Quiches, Cookies and much more}
+\cvitem{Sports}{Volley Ball, Bodyboard}
+\cvitem{Video Games}{Sea of Thieves, Counter-Strike, AoE II}
+\cvitem{Music}{Piano / bass guitar player}
 
 \end{document}
